@@ -6,86 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #aaaaaa;
-        }
-
-        div.container {
-            overflow: auto;
-        }
-
-        header {
-            background-color: #e5e5e5;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav {
-            float: left;
-            width: 20%;
-            text-align: center;
-        }
-
-        nav ul {
-            padding-left: 0px;
-        }
-
-        nav li {
-            list-style: none;
-        }
-
-        nav li a {
-            background-color: #e5e5e5;
-            padding: 8px;
-            margin-top: 7px;
-            display: block;
-            width: 100%;
-            color: black;
-            font-weight: 700;
-        }
-
-        main {
-            float: left;
-            width: 60%;
-            padding: 0 20px;
-        }
-
-        .right {
-            background-color: #e5e5e5;
-            float: left;
-            width: 20%;
-            padding: 15px;
-            margin-top: 7px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #e5e5e5;
-            text-align: center;
-            padding: 10px;
-            margin-top: 7px;
-        }
-
-        /* For mobile phones: */
-        @media only screen and (max-width: 620px) {
-
-            nav,
-            main,
-            .right {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-
+    <!-- Encabezado -->
+    <header>
+        <h1>Bujías Hescher</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <section>
+                <h2>Noticias</h2>
+                <p>En el pasado mes de agosto, Bujías Hescher rompió
+                    su record de ventas llegando a las 15.001. Rompiendo su antiguo record (15.000)
+                </p>
+                <hr>
+                <p>
+                    La empresa cambió su ubicación a Caseros 3743 en la Provincia de Buenos Aires
+                    debido a esto habrá demora de 2 a 3 días en los pedidos realizados hasta
+                    el 25 de septiembre.
+                </p>
+                <hr>
+                <p>¡Ya podés hacer tus pedidos por WhatsApp! Comunicate con nosotros al: 011 4716-0324.</p>
+            </section>
+            <br>
+            <section>
+                <h2>La empresa</h2>
+                <h4>Sobre nosotros:</h4>
+                <p>
+                    Construimos relaciones cliente-vendedor basadas en la consideración, el respeto,
+                    la responsabilidad y el profesionalismo; brindando así respaldo y seguridad.
+                    Promovemos la disciplina y el trabajo en equipo, para innovar en competitividad,
+                    procesos y producto final. Creemos en la capacitación activa del personal y del reconocimiento
+                    del esfuerzo diario. Nos comprometemos con el cuidado del medio ambiente,
+                    haciendo un seguimiento de los insumos utilizados, de los procesos de
+                    fabricación, y de la deposición de los residuos, según las normativas vigentes.
+                </p>
+                <hr>
+                <h4>Misión</h4>
+                <p>
+                    Mantener nuestro compromiso de exigencia, calidad y eficiencia en la fabricación
+                    de autopartes, y evolucionar como empresa mediante la incorporación de nuevas
+                    tecnologías fortaleciendo nuestro soporte hacia clientes y proveedores.
+                </p>
+                <hr>
+                <h4>Visión</h4>
+                <p>
+                    Ser la empresa reconocida como líder en el diseño, fabricación y comercialización
+                    de autopartes en toda Latinoamérica y en el mundo; por parte de nuestros clientes,
+                    proveedores, consumidores y todos los grupos de interés relacionados con la
+                    actividad de nuestra compañía.
+                </p>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>¿Y, arranca o no arranca? Con Bujías Hescher ¡Siempre arranca!</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright Hescher</p>
+    </footer>
 </body>
 
 </html>
